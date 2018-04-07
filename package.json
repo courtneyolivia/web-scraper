@@ -1,0 +1,27 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "all the news that's fit to scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakiohma/web-scraper.git"
+  },
+  "author": "Courtney Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakiohma/web-scraper/issues"
+  },
+  "homepage": "https://github.com/sakiohma/web-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.13",
+    "request": "^2.85.0"
+  }
+}
