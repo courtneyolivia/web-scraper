@@ -2,7 +2,7 @@
 
 
 <h2><b>Overview</b></h2>
-A web app that lets users view and leave comments on the latest news. 
+Web-Scraper is a web app that lets users view and leave comments on the latest news articles posted on CNN. 
 
 
 <h2><b>Technologies Used</b></h2>
