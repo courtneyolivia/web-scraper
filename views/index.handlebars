@@ -1,0 +1,17 @@
+<h1>CNN News Scraper</h1>
+<h2>Yours one stop source for the top headlines...</h2>
+
+<ul>
+    {{#each article}}
+    <li>
+        <p>summary: {{this.summary}}</p>
+        <p>article: {{this.article}}</p>
+    </li>
+    {{/each}}
+</ul>
+<div>
+    <form action="/" method="POST">
+        <textarea type="text" name="comment"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</div>
