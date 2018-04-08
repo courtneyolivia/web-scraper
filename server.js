@@ -39,12 +39,12 @@ app.set("view engine", "handlebars");
 
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/mongoHeadlines", {
+mongoose.connect("https://polar-temple-55050.herokuapp.com/", {
 useMongoClient: true
 });
 
 // Deployed or local database
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+const MONGODB_URI = process.env.MONGODB_URI || "https://polar-temple-55050.herokuapp.com/";
 
 
 // Routes
