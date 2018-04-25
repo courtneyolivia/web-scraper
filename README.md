@@ -1,6 +1,6 @@
 <h1><b>News Article Scraper</b></h1>
 
-
+<b>Heroku Link:</b> https://git.heroku.com/website-news-scraper.git
 <h2><b>Overview</b></h2>
 Web-Scraper is a web app that lets users view and leave comments on the latest news articles posted on CNN. 
 
